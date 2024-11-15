@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Styling for the Product Section */
+.product-title {
+    font-size: 1.8em;
+    color: #333;
+    font-weight: bold;
+}
+
+.product-description li {
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* Image Carousel */
+.carousel-inner img {
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.carousel-item {
+    transition: transform 0.5s ease;
+    width: auto;
+    height: auto;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #2E2359;
+    color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #413066;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #A5A5A5;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #FFFFFF;
+}
+
+/* Cart Status Message */
+#cartStatus {
+    font-weight: bold;
+    font-size: 1em;
+}
